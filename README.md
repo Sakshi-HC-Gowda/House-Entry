@@ -1,5 +1,8 @@
 # House Entry – Backend API + React Frontend
 
+👨‍💻 Author
+This project was developed as part of an academic assignment. Contributions and improvements are welcome!
+
 This starter contains:
 - **backend/**: Spring Boot REST API exposing `/api/generate-password`.
 - **frontend/**: React app with a form that POSTs DOB to the backend.
@@ -60,3 +63,5 @@ Only registered members can open the door. Register each member's DOB once.
 - Open door (generate password):
   - `POST http://localhost:8080/api/generate-password`
   - Only works if DOB is registered; otherwise returns `{ password: -1, status: "Access Denied" }`.
+
+
